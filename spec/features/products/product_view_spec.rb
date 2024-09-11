@@ -18,4 +18,17 @@ feature "Products Home", :type => :feature do
     expect(page).to have_selector('p.description', text: product1.description)
     expect(page).to have_selector('span.price', text: product1.price.to_s)
   end
+
+  it 'render a new product form' do
+    visit new_product_path
+    expect(page).to have_http_status(:success)
+    expect(page).to have_selector('form')
+  end
+
+  it 'allows creating a new product' do
+    visit new_product_path
+    expect(page).to have_http_status(:success)
+    click_button "Create Product"
+    expect(page).to have_current_path(products_path)
+  end
 end 
