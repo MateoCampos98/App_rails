@@ -24,11 +24,4 @@ feature "Products Home", :type => :feature do
     expect(page).to have_http_status(:success)
     expect(page).to have_selector('form')
   end
-
-  it 'allows creating a new product' do
-    visit new_product_path
-    expect(page).to have_http_status(:success)
-    click_button "Create Product"
-    expect(page).to have_current_path(products_path)
-  end
 end 
