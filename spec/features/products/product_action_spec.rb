@@ -2,6 +2,9 @@ require "rails_helper"
 require "byebug"
 
 feature "Products Home", :type => :feature do
+  before do
+    page.driver.browser.header('Accept-Language', 'en')
+  end
 
   let!(:product1) { create(:product) }
   let!(:product2) { create(:product) }
