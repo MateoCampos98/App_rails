@@ -20,6 +20,7 @@ es:
               blank: 'no puede estar vacío'
   common:
     confirm: '¿Estas seguro?'
+    back: 'Regresar'
   products:
     edit:
       title: 'Editar producto'
@@ -36,3 +37,21 @@ es:
   shared:
     header:
       store: 'Tienda'
+#################################################################
+  categories:
+    category:
+      edit: 'Editar'
+      delete: 'Borrar'
+    edit:
+      title: 'Editar categoria'
+    new:
+      title: 'Añadir categoria'
+    index:
+      title: 'Categorias:'
+      new: 'Agregar categoria'
+    create:
+      created: 'Tu categoria se ha creado correctamente'
+    update:
+      updated: 'Tu categoria se ha actualizado'
+    destroy:
+      destroyed: 'Tu categoria se ha eliminado correctamente'
