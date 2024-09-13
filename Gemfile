@@ -53,6 +53,7 @@ group :development, :test do
   gem 'faker', '~> 3.4', '>= 3.4.2'
   gem "capybara"
   gem "byebug"
+  gem 'roo', '~> 2.4.0'
 end
 
 group :development do

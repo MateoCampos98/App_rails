@@ -6,13 +6,16 @@ feature "Products Home", :type => :feature do
     page.driver.browser.header('Accept-Language', 'en')
   end
 
+
+  let!(:category) { create(:category) }
   let!(:product1) { create(:product) }
   let!(:product2) { create(:product) }
 
   product_attributes = {
       title: 'Small Plastic Pants',
       description: 'These pants are made of small plastic.',
-      price: 29
+      price: 29,
+      category_id: 1
     }
 
   it 'allows to create a new product' do
@@ -30,6 +33,7 @@ feature "Products Home", :type => :feature do
     expect(product_created.title).to eq(product_attributes[:title])
     expect(product_created.description).to eq(product_attributes[:description])
     expect(product_created.price).to eq(product_attributes[:price])
+    expect(product_created.category).to eq(category)
   end
 
   it 'render an edit(update) product form' do

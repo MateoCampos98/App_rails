@@ -11,6 +11,7 @@ es:
     errors:
       models:
         product:
+          required: 'requerida'
           attributes:
             title:
               blank: 'no puede estar vacío'
