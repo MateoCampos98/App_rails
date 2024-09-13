@@ -11,7 +11,13 @@ class Product < ApplicationRecord
       dictionary: 'spanish' 
     }
   },
-  ignoring: :accents  
+  ignoring: :accents
+  
+  ORDER_BY = {
+    newest: "created_at DESC",
+    expensive: "price DESC",
+    cheapest: "price ASC"
+  }
 
   belongs_to :category
 
