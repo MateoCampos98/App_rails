@@ -54,6 +54,7 @@ group :development, :test do
   gem "capybara"
   gem "byebug"
   gem 'roo', '~> 2.4.0'
+  gem 'pg_search'
 end
 
 group :development do
