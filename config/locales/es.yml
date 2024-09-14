@@ -30,6 +30,7 @@ es:
   common:
     confirm: '¿Estas seguro?'
     back: 'Regresar'
+    not_logged_in: 'Tienes que iniciar sesión o crear una cuenta'
 #################################################################
   shared:
     header:
