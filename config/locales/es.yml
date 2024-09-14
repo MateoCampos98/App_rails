@@ -1,4 +1,6 @@
 es:
+  app_name: 'Store'
+  meta_title: 'Compra y vende productos!'
   activerecord:
     models:
       product: Producto
