@@ -12,6 +12,12 @@ es:
         photo: 'Foto'
     errors:
       models:
+        user:
+          invalid: 'es invalido'
+          attributes:
+            username:
+              too_long: 'demasiado largo(maximo 15 caracteres)'
+              invalid: 'es invalido'
         product:
           required: 'requerida'
           attributes:
@@ -24,6 +30,17 @@ es:
   common:
     confirm: '¿Estas seguro?'
     back: 'Regresar'
+#################################################################
+  shared:
+    header:
+      store: 'Tienda'
+      add: 'Anadir producto'
+#################################################################
+  authentication:
+    users:
+      create:
+        created: 'Tu cuenta ha sido creada!'
+#################################################################
   products:
     edit:
       title: 'Editar producto'
@@ -44,9 +61,6 @@ es:
       updated: 'Tu producto se ha actualizado'
     destroy:
       destroyed: 'Tu producto se ha eliminado correctamente'
-  shared:
-    header:
-      store: 'Tienda'
 #################################################################
   categories:
     category:
