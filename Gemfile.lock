@@ -120,6 +120,7 @@ GEM
       railties (>= 5.0.0)
     faker (3.4.2)
       i18n (>= 1.8.11, < 2)
+    ffi (1.17.0-x86_64-linux-gnu)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.5)
@@ -172,6 +173,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
+    pagy (9.0.9)
     pg (1.5.8)
     pg_search (2.3.7)
       activerecord (>= 6.1)
@@ -247,6 +249,16 @@ GEM
       rspec-support (~> 3.13)
     rspec-support (3.13.1)
     rubyzip (1.3.0)
+    sass-rails (6.0.0)
+      sassc-rails (~> 2.1, >= 2.1.1)
+    sassc (2.4.0)
+      ffi (~> 1.9)
+    sassc-rails (2.1.2)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
     selenium-webdriver (4.24.0)
       base64 (~> 0.2)
       logger (~> 1.4)
@@ -266,6 +278,7 @@ GEM
       railties (>= 6.0.0)
     stringio (3.1.1)
     thor (1.3.2)
+    tilt (2.4.0)
     timeout (0.4.1)
     turbo-rails (2.0.6)
       actionpack (>= 6.0.0)
@@ -306,12 +319,14 @@ DEPENDENCIES
   faker (~> 3.4, >= 3.4.2)
   importmap-rails
   jbuilder
+  pagy (~> 9.0)
   pg (~> 1.1)
   pg_search
   puma (>= 5.0)
   rails (~> 7.1.4)
   roo (~> 2.4.0)
   rspec-rails (~> 7.0.0)
+  sass-rails (>= 6)
   selenium-webdriver
   shoulda-matchers (~> 6.4)
   sprockets-rails
