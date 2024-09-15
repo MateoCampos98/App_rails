@@ -13,6 +13,7 @@
 ActiveRecord::Schema[7.1].define(version: 2024_09_14_184118) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "unaccent"
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
@@ -64,6 +65,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_09_14_184118) do
     t.string "email", null: false
     t.string "username", null: false
     t.string "password_digest", null: false
+    t.boolean "admin", default: false, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_users_on_email", unique: true

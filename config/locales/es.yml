@@ -44,6 +44,7 @@ es:
     confirm: '¿Estas seguro?'
     back: 'Regresar'
     not_logged_in: 'Tienes que iniciar sesión o crear una cuenta'
+    not_authorized: 'No tienes permiso para realizar esta acción'
 #################################################################
   shared:
     header:
