@@ -1,15 +1,28 @@
 es:
   app_name: 'Store'
   meta_title: 'Compra y vende productos!'
+  login: 'Iniciar sesión'
+  loginn: 'Correo electronico'
+  password: 'Contraseña'
+  register: 'Registrarse'
+  logout: 'Cerrar sesión'
   activerecord:
     models:
       product: Producto
+      user: Usuario
+      category: Categoría
     attributes:
       product:
         title: 'Titulo'
         description: 'Descripción'
         price: 'Precio'
         photo: 'Foto'
+      user: 
+        email: 'Correo electronico'
+        username: 'Usuario'
+        password: 'Contraseña'
+      category:
+        name: 'Nombre'
     errors:
       models:
         user:
@@ -45,6 +58,8 @@ es:
       create:
         created: 'Bienvenido!'
         failed: 'Inicio de sesión invalido!'
+      destroy:
+        destroyed: 'Tu sesión se ha cerrado!, Hasta la próxima.'
 #################################################################
   products:
     edit:
