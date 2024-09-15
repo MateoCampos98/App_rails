@@ -17,7 +17,8 @@ namespace :import do
         title: row['title'],
         description: row['description'],
         price: row['price'].to_i,
-        category_id: row['category_id'].to_i
+        category_id: row['category_id'].to_i,
+        user_id: row['user_id'].to_i
       )
     end
   end

@@ -1,51 +1,52 @@
-title,description,price,category_id
-Camiseta básica blanca,Camiseta de algodón 100% en color blanco. Perfecta para un look casual y cómodo.,15990,1
-Camiseta estampada grafitti,Camiseta con un estampado moderno de grafitti. Ideal para destacar en cualquier ocasión.,19990,1
-Chaqueta de cuero negra,Chaqueta de cuero sintético en color negro con detalles metálicos. Estilo rockero.,89990,2
-Chaqueta bomber verde militar,Chaqueta bomber en color verde militar con cierre frontal y bolsillos laterales.,69990,2
-Buzo con capucha gris,Buzo cómodo de algodón con capucha ajustable y bolsillo tipo canguro.,35990,3
-Buzo oversize azul,Buzo estilo oversize en color azul marino, ideal para días fríos.,39990,3
-Camisa de cuadros rojos,Camisa de cuadros rojos y negros, perfecta para un look casual o formal.,29990,4
-Camisa de lino beige,Camisa ligera de lino en color beige, ideal para climas cálidos.,32990,4
-Pantalón de mezclilla clásico,Pantalón de mezclilla azul oscuro con corte regular.,49990,5
-Pantalón cargo verde oliva,Pantalón cargo en color verde oliva con bolsillos amplios.,54990,5
-Bermuda de algodón gris,Bermuda cómoda de algodón con ajuste elástico. Color gris.,24990,6
-Bermuda de lino beige,Bermuda ligera de lino en color beige, ideal para el verano.,27990,6
-Jogger deportivo negro,Jogger de algodón en color negro con ajuste en la cintura.,34990,7
-Jogger cargo gris,Jogger estilo cargo en color gris con múltiples bolsillos.,37990,7
-Vestido floral rojo,Vestido corto con estampado floral en tonos rojos.,44990,8
-Vestido largo negro,Vestido largo negro, elegante y perfecto para eventos formales.,59990,8
-Camiseta deportiva azul,Camiseta técnica de deporte en color azul con tecnología de absorción de humedad.,21990,1
-Camiseta de rayas marinas,Camiseta con rayas horizontales en colores marinos y blancos.,17990,1
-Chaqueta de lana gris,Chaqueta de lana en color gris con cierre de botones y bolsillos laterales.,74990,2
-Chaqueta de plumas azul,Chaqueta acolchada de plumas en color azul para el invierno.,99990,2
-Buzo con estampado abstracto,Buzo con estampado abstracto en tonos vibrantes.,38990,3
-Buzo con logo grande,Buzo con logo grande en el pecho y detalles en contraste.,36990,3
-Camisa de mezclilla,Camisa clásica de mezclilla en color azul claro.,31990,4
-Camisa de cuadros azules,Camisa de cuadros en tonos azules y blancos, ideal para el verano.,30990,4
-Pantalón de lana gris,Pantalón de lana en color gris con corte ajustado.,52990,5
-Pantalón deportivo azul,Pantalón deportivo en color azul con detalles en contraste.,45990,5
-Bermuda de mezclilla azul,Bermuda de mezclilla en color azul con corte recto.,25990,6
-Bermuda con estampado tropical,Bermuda con estampado tropical en colores vivos.,28990,6
-Jogger de felpa azul,Jogger de felpa en color azul con cintura ajustable.,35990,7
-Jogger con detalles en cuero,Jogger con detalles en cuero sintético en los costados.,38990,7
-Vestido de encaje negro,Vestido de encaje negro con forro interior, ideal para eventos nocturnos.,54990,8
-Vestido midi verde,Vestido midi en color verde con tirantes finos y ajuste en la cintura.,49990,8
-Camiseta de manga larga blanca,Camiseta de manga larga en color blanco, ideal para las estaciones más frescas.,16990,1
-Camiseta gráfica vintage,Camiseta con gráfico vintage en tonos retro.,18990,1
-Chaqueta de mezclilla azul,Chaqueta de mezclilla en color azul con detalles desgastados.,64990,2
-Chaqueta acolchada gris,Chaqueta acolchada en color gris con cierre de cremallera.,79990,2
-Buzo de rayas gris,Buzo con rayas en tonos grises y blancos.,36990,3
-Buzo con cremallera,Buzo con cremallera completa en color negro.,37990,3
-Camisa de manga corta blanca,Camisa de manga corta en color blanco, ligera y fresca.,27990,4
-Camisa de manga larga azul,Camisa de manga larga en color azul claro, ideal para el trabajo.,32990,4
-Pantalón de chándal negro,Pantalón de chándal en color negro con puños ajustables.,45990,5
-Pantalón de lino azul,Pantalón ligero de lino en color azul, perfecto para climas cálidos.,49990,5
-Bermuda de mezclilla clara,Bermuda de mezclilla en color claro con detalle rasgado.,25990,6
-Bermuda con tirantes,Bermuda con tirantes ajustables y estampado a rayas.,27990,6
-Jogger de felpa gris,Jogger de felpa en color gris con estampado sutil.,35990,7
-Jogger de deporte azul,Jogger de deporte en color azul con detalles en contraste.,37990,7
-Vestido de seda rojo,Vestido de seda en color rojo con detalle en la espalda.,64990,8
-Vestido corto blanco,Vestido corto en color blanco con cintura ajustable.,49990,8
+title,description,price,category_id,user_id
+Camiseta básica blanca,Camiseta de algodón 100% en color blanco. Perfecta para un look casual y cómodo.,15990,1,2
+Camiseta estampada grafitti,Camiseta con un estampado moderno de grafitti. Ideal para destacar en cualquier ocasión.,19990,1,1
+Chaqueta de cuero negra,Chaqueta de cuero sintético en color negro con detalles metálicos. Estilo rockero.,89990,2,3
+Chaqueta bomber verde militar,Chaqueta bomber en color verde militar con cierre frontal y bolsillos laterales.,69990,2,2
+Buzo con capucha gris,Buzo cómodo de algodón con capucha ajustable y bolsillo tipo canguro.,35990,3,1
+Buzo oversize azul,Buzo estilo oversize en color azul marino, ideal para días fríos.,39990,3,2
+Camisa de cuadros rojos,Camisa de cuadros rojos y negros, perfecta para un look casual o formal.,29990,4,1
+Camisa de lino beige,Camisa ligera de lino en color beige, ideal para climas cálidos.,32990,4,3
+Pantalón de mezclilla clásico,Pantalón de mezclilla azul oscuro con corte regular.,49990,5,2
+Pantalón cargo verde oliva,Pantalón cargo en color verde oliva con bolsillos amplios.,54990,5,1
+Bermuda de algodón gris,Bermuda cómoda de algodón con ajuste elástico. Color gris.,24990,6,3
+Bermuda de lino beige,Bermuda ligera de lino en color beige, ideal para el verano.,27990,6,2
+Jogger deportivo negro,Jogger de algodón en color negro con ajuste en la cintura.,34990,7,1
+Jogger cargo gris,Jogger estilo cargo en color gris con múltiples bolsillos.,37990,7,3
+Vestido floral rojo,Vestido corto con estampado floral en tonos rojos.,44990,8,2
+Vestido largo negro,Vestido largo negro, elegante y perfecto para eventos formales.,59990,8,1
+Camiseta deportiva azul,Camiseta técnica de deporte en color azul con tecnología de absorción de humedad.,21990,1,3
+Camiseta de rayas marinas,Camiseta con rayas horizontales en colores marinos y blancos.,17990,1,2
+Chaqueta de lana gris,Chaqueta de lana en color gris con cierre de botones y bolsillos laterales.,74990,2,1
+Chaqueta de plumas azul,Chaqueta acolchada de plumas en color azul para el invierno.,99990,2,3
+Buzo con estampado abstracto,Buzo con estampado abstracto en tonos vibrantes.,38990,3,2
+Buzo con logo grande,Buzo con logo grande en el pecho y detalles en contraste.,36990,3,1
+Camisa de mezclilla,Camisa clásica de mezclilla en color azul claro.,31990,4,2
+Camisa de cuadros azules,Camisa de cuadros en tonos azules y blancos, ideal para el verano.,30990,4,3
+Pantalón de lana gris,Pantalón de lana en color gris con corte ajustado.,52990,5,3
+Pantalón deportivo azul,Pantalón deportivo en color azul con detalles en contraste.,45990,5,1
+Bermuda de mezclilla azul,Bermuda de mezclilla en color azul con corte recto.,25990,6,2
+Bermuda con estampado tropical,Bermuda con estampado tropical en colores vivos.,28990,6,3
+Jogger de felpa azul,Jogger de felpa en color azul con cintura ajustable.,35990,7,2
+Jogger con detalles en cuero,Jogger con detalles en cuero sintético en los costados.,38990,7,3
+Vestido de encaje negro,Vestido de encaje negro con forro interior, ideal para eventos nocturnos.,54990,8,1
+Vestido midi verde,Vestido midi en color verde con tirantes finos y ajuste en la cintura.,49990,8,2
+Camiseta de manga larga blanca,Camiseta de manga larga en color blanco, ideal para las estaciones más frescas.,16990,1,3
+Camiseta gráfica vintage,Camiseta con gráfico vintage en tonos retro.,18990,1,2
+Chaqueta de mezclilla azul,Chaqueta de mezclilla en color azul con detalles desgastados.,64990,2,1
+Chaqueta acolchada gris,Chaqueta acolchada en color gris con cierre de cremallera.,79990,2,3
+Buzo de rayas gris,Buzo con rayas en tonos grises y blancos.,36990,3,1
+Buzo con cremallera,Buzo con cremallera completa en color negro.,37990,3,2
+Camisa de manga corta blanca,Camisa de manga corta en color blanco, ligera y fresca.,27990,4,3
+Camisa de manga larga azul,Camisa de manga larga en color azul claro, ideal para el trabajo.,32990,4,1
+Pantalón de chándal negro,Pantalón de chándal en color negro con puños ajustables.,45990,5,3
+Pantalón de lino azul,Pantalón ligero de lino en color azul, perfecto para climas cálidos.,49990,5,2
+Bermuda de mezclilla clara,Bermuda de mezclilla en color claro con detalle rasgado.,25990,6,1
+Bermuda con tirantes,Bermuda con tirantes ajustables y estampado a rayas.,27990,6,3
+Jogger de felpa gris,Jogger de felpa en color gris con estampado sutil.,35990,7,1
+Jogger de deporte azul,Jogger de deporte en color azul con detalles en contraste.,37990,7,2
+Vestido de seda rojo,Vestido de seda en color rojo con detalle en la espalda.,64990,8,3
+Vestido corto blanco,Vestido corto en color blanco con cintura ajustable.,49990,8,1
+
 
 
