@@ -19,14 +19,16 @@ class Product < ApplicationRecord
     cheapest: "price ASC"
   }
 
-  belongs_to :category
-  belongs_to :user, default: -> { Current.user }
-
   has_one_attached :photo
 
   validates :title, presence: true
   validates :description, presence:true
   validates :price, presence: true
+
+  has_many :favorites, dependent: :destroy
+
+  belongs_to :category
+  belongs_to :user, default: -> { Current.user }
 
   def owner?
     user_id == Current.user&.id
