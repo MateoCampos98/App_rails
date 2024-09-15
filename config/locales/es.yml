@@ -1,11 +1,8 @@
 es:
   app_name: 'Store'
   meta_title: 'Compra y vende productos!'
-  login: 'Iniciar sesión'
   loginn: 'Correo electronico'
   password: 'Contraseña'
-  register: 'Registrarse'
-  logout: 'Cerrar sesión'
   not_found: 'No se ha encontrado!'
   activerecord:
     models:
@@ -51,6 +48,11 @@ es:
     header:
       store: 'Tienda'
       add: 'Anadir producto'
+      favorites: 'Mis favoritos'
+      logout: 'Cerrar sesión'
+      categories: 'Categorias'
+      login: 'Iniciar sesión'
+      register: 'Registrarse'
 #################################################################
   authentication:
     users:
@@ -110,3 +112,7 @@ es:
     show:
       common:
         not_found: 'No se ha encontrado!'
+#################################################################
+  favorites:
+    index:
+      title: 'Mis favoritos'
