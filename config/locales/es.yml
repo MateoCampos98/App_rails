@@ -6,6 +6,7 @@ es:
   password: 'Contraseña'
   register: 'Registrarse'
   logout: 'Cerrar sesión'
+  not_found: 'No se ha encontrado!'
   activerecord:
     models:
       product: Producto
@@ -76,6 +77,10 @@ es:
       expensive: 'Más caros'
       cheapest: 'Más baratos'
       newest: 'Añadidos recientemente'
+    show:
+      edit: 'Editar producto'
+      delete: 'Borrar producto'
+      view_more_products: 'Ver más productos de %{username}'
     create:
       created: 'Tu producto se ha creado correctamente'
     update:
@@ -100,3 +105,8 @@ es:
       updated: 'Tu categoria se ha actualizado'
     destroy:
       destroyed: 'Tu categoria se ha eliminado correctamente'
+#################################################################
+  users:
+    show:
+      common:
+        not_found: 'No se ha encontrado!'
