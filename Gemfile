@@ -44,7 +44,7 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-gem "tailwindcss-rails", "~> 2.7"
+
 gem 'sass-rails', '>= 6'
 gem 'sassc-rails'
 
@@ -80,7 +80,3 @@ group :test do
   gem 'shoulda-matchers', '~> 6.4'
   gem 'database_cleaner', '~> 2.0', '>= 2.0.2'
 end
-
-
-
-

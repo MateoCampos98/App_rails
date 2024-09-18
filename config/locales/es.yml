@@ -47,7 +47,7 @@ es:
   shared:
     header:
       store: 'Tienda'
-      add: 'Anadir producto'
+      add: 'Añadir producto'
       favorites: 'Mis favoritos'
       logout: 'Cerrar sesión'
       categories: 'Categorias'
