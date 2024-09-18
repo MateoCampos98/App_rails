@@ -1,17 +1,16 @@
-<div class="header_class">
+<div class="header_class" data-controller="menu">
     <%= link_to products_path do %>
         <h1 class="app_name"> <%= t('app_name') %> </h1>
     <% end %>
 
+    <button class="icon_button" data-action="click->menu#open"><%= image_tag 'icons/menu.svg' %></button>
+
     <div class="link_container">
-        <%= link_to t('.add'), new_product_path if Current.user %>
-        <%= link_to t('.favorites'), favorites_path if Current.user %>
-        <%= link_to t('.categories'), categories_path if Current.user&.admin? %>
-        <%= link_to t('.login'), new_session_path unless Current.user %>
-        <%= link_to t('.register'), new_user_path unless Current.user %>
-        <%= link_to t('.logout'), session_path(Current.user.id), data: {
-            turbo_method: :delete,
-            turbo_confirm: t('common.confirm')
-        } if Current.user %>
+        <%= render partial: 'shared/items' %>
+    </div>
+
+    <div class="mobile_container" data-menu-target="items">
+        <button class="icon_button" data-action="click->menu#close"><%= image_tag 'icons/close.svg' %></button>
+        <%= render partial: 'shared/items' %>
     </div>
 </div>
