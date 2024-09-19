@@ -26,6 +26,35 @@ $second-black: #5C656A;
   }
 }
 
+// ********** FLASH/NOTICE/ALERT **********//
+
+.flash-message {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  position: fixed;
+  top: 3rem;
+  right: 16rem;
+  z-index: 9999;
+  max-width: 300px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  @include respond-to('tablet') { 
+    right: 2rem;
+  }
+}
+
+.flash-notice {
+  background-color: $primary-withe;
+  border-left: 5px solid #28a745; /* Franja verde */
+  color: #155724; /* Texto verde */
+}
+
+.flash-alert {
+  background-color: $primary-withe;
+  border-left: 5px solid #dc3545; /* Franja roja */
+  color: #721c24; /* Texto rojo */
+}
+
 // ********** HTML **********//
 
 html,
