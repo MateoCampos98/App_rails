@@ -5,11 +5,12 @@ export default class extends Controller {
   static targets = ["items"]
   
   open(){
-    this.itemsTarget.classList.add('visible')
+    this.itemsTarget.classList.remove('hidden');
+    this.itemsTarget.classList.remove('visible')
   }
 
   close(){
-    this.itemsTarget.classList.remove('visible')
+    this.itemsTarget.classList.add('visible')
   }
   
 }

@@ -1,3 +1,10 @@
-<h2> <%= t('.title')%> </h2>
-
-<%= render 'form' %>
+<%= turbo_frame_tag "modal" do %>
+    <div data-controller="modal">
+        <div class="shadow_container" data-action="click->modal#close"></div>
+        <div class="new_side" data-modal-target="sidebar">
+            <p data-action="click->modal#close">❌</p>
+            <h2> <%= t('.title')%> </h2>
+            <%= render 'form' %>
+        </div>
+    </div>
+<% end %>
