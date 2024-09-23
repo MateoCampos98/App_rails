@@ -117,3 +117,7 @@ es:
   favorites:
     index:
       title: 'Mis favoritos'
+  user_mailer:
+    welcome:
+      subject: 'Bienvenido a Store'
+      welcome_message: 'Hey %{username}, ¡Bienvenido a Store. Esperamos que vendas un montón!'
