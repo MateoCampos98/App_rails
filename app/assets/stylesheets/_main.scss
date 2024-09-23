@@ -380,7 +380,6 @@ input[type="submit"]:hover {
 }
 
 .category-box {
-  background-color: $primary-withe;
   padding: 8px 16px;
   border-radius: 1.5rem;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -395,4 +394,12 @@ input[type="submit"]:hover {
 
 .category-box:hover {
   background-color: #d1d5db;
+}
+
+.category_component {
+  background-color: #D1D5DB;
+}
+
+.category_component_2 {
+  background-color: $primary-withe;
 }

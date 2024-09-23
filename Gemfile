@@ -80,3 +80,4 @@ group :test do
   gem 'shoulda-matchers', '~> 6.4'
   gem 'database_cleaner', '~> 2.0', '>= 2.0.2'
 end
+gem "view_component", "~> 3.14"

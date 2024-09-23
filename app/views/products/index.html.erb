@@ -19,11 +19,11 @@
 
     <div class="categories_container">
 
-        <div class="category-box">
-            <%= link_to t('.all'), products_path %>
-        </div>
+        <%= render(CategoryComponent.new) %>
 
-        <%= render partial: 'category', collection: @categories %>
+        <%= render(CategoryComponent.with_collection(@categories)) %>
+
+
     </div>
 
     <%= turbo_frame_tag :products do %>
