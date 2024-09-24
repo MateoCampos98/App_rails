@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class CategoryComponent < ViewComponent::Base
+  attr_reader :category
+
   def initialize(category: nil)
     @category = category
   end

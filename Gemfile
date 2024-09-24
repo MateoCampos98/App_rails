@@ -45,7 +45,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 
-gem 'sass-rails', '>= 6'
+gem 'sass-rails', '~> 6.0'
 gem 'sassc-rails'
 
 
@@ -60,7 +60,8 @@ group :development, :test do
   gem "byebug"
   gem 'roo', '~> 2.4.0'
   gem 'pg_search'
-  gem "pagy", "~> 9.0"
+  gem "pagy", '~> 5.0'
+  gem 'view_component'
 end
 
 group :development do
@@ -81,4 +82,4 @@ group :test do
   gem 'shoulda-matchers', '~> 6.4'
   gem 'database_cleaner', '~> 2.0', '>= 2.0.2'
 end
-gem "view_component", "~> 3.14"
+
